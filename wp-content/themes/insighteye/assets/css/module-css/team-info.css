@@ -1,0 +1,281 @@
+
+/** team-info-section **/
+
+.team-info-section{
+  position: relative;
+  overflow: hidden;
+}
+
+.team-info-section:before{
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  bottom: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.team-info-section h3{
+  position: relative;
+  display: block;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.team-info-section .biography-inner p{
+  color: var(--title-color);
+  margin-bottom: 26px;
+}
+
+.team-info-section .biography-inner{
+  position: relative;
+  display: block;
+}
+
+.team-info-section .skills-inner{
+  position: relative;
+  display: block;
+}
+
+.team-info-section .skills-inner h3,
+.team-info-section .skills-inner p{
+  color: #fff;
+}
+
+.team-info-section .skills-inner p{
+  margin-bottom: 25px;
+}
+
+.progress-box .bar{
+  position:relative;
+  width:100%;
+  height:5px;
+  background: rgba(255, 255, 255, 0.30);
+  border-radius: 5px;
+}
+  
+.progress-box .bar-inner{
+  position:relative;
+  display:block;
+  background: #fff;
+  width:0px;
+  height:5px;
+  border-radius: 5px;
+  -webkit-transition:all 1500ms ease;
+  -ms-transition:all 1500ms ease;
+  -o-transition:all 1500ms ease;
+  -moz-transition:all 1500ms ease;
+  transition:all 1500ms ease; 
+}
+
+.progress-box .bar-inner:before{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: -7px;
+  right: 0px;
+  border: solid;
+  border-width: 5px;
+}
+
+.progress-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.progress-box:last-child{
+  margin-bottom: 0px;
+}
+
+.progress-box p{
+  display: block;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 12px !important;
+}
+
+.progress-box .count-text{
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.team-info-section .pattern-layer .pattern-1{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 788px;
+  height: 464px;
+  background-repeat: no-repeat;
+}
+
+.team-info-section .pattern-layer .pattern-2{
+  position: absolute;
+  left: 36px;
+  bottom: 62px;
+  width: 80px;
+  height: 96px;
+  background-repeat: no-repeat;
+}
+
+.team-info-section .pattern-layer .pattern-3{
+  position: absolute;
+  left: -170px;
+  bottom: -134px;
+  width: 446px;
+  height: 446px;
+  border-radius: 50%;
+  border: 70px solid #fff;
+  -webkit-animation: zoom-fade 7s infinite linear;
+  animation: zoom-fade 7s infinite linear;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+.rtl .team-info-section:before{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .team-info-section .pattern-layer{
+  display: none;
+}
+
+.rtl .team-info-section .skills-inner{
+  margin-left: 0px;
+  margin-right: 80px;
+}
+
+.rtl .progress-box .count-text{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .team-info-section .biography-inner{
+  margin-right: 0px;
+  margin-left: 70px;
+}
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .team-info-section .biography-inner{
+    margin-right: 0px;
+    padding-bottom: 70px;
+  }
+
+  .rtl .team-info-section .biography-inner{
+    margin-left: 0px;
+  }
+
+  .team-info-section .skills-inner{
+    margin-left: 0px;
+    padding-top: 70px;
+  }
+
+  .rtl .team-info-section .skills-inner{
+    margin-right: 0px;
+  }
+
+  .team-info-section:before{
+    width: 100%;
+    height: 50%;
+  }
+
+  .team-info-section .pattern-layer{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .team-info-section{
+    padding: 65px 0px 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

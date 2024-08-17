@@ -1,0 +1,227 @@
+
+/** funfact-section **/
+
+.funfact-section{
+  position: relative;
+}
+
+.funfact-section .inner-container{
+  position: relative;
+  display: block;
+  margin-top: -95px;
+  z-index: 1;
+}
+
+.funfact-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  padding: 50px 60px 50px 170px;
+}
+
+.funfact-block-one .inner-box .icon-box{
+  position: absolute;
+  display: inline-block;
+  left: 50px;
+  top: 50px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 50px;
+  background: linear-gradient(43.26deg, rgba(253, 34, 92, 0.15) 5.59%, rgba(254, 122, 64, 0.15) 90.07%);
+  text-align: center;
+  border-radius: 50%;
+}
+
+.funfact-block-one .inner-box .icon-box .icon{
+  position: relative;
+}
+
+.funfact-section .funfact-block-one{
+  float: left;
+  width: 33.333%;
+}
+
+.funfact-block-one .inner-box .count-outer{
+  position: relative;
+  display: block;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 14px;
+}
+
+.funfact-block-one .inner-box h3{
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.funfact-block-two .inner-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  padding: 50px 30px 50px 150px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+.funfact-block-two .inner-box .icon-box{
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+  top: 50px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(253, 34, 92, 0.1) 1.12%, rgba(254, 122, 64, 0.1) 100%);
+}
+
+.funfact-block-two .inner-box .icon-box .icon{
+
+}
+
+.funfact-block-two .inner-box .count-outer{
+  position: relative;
+  display: block;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 14px;
+}
+
+.funfact-block-two .inner-box h3{
+  display: block;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+.rtl .funfact-block-one .inner-box{
+  padding-left: 60px;
+  padding-right: 170px;
+}
+
+.rtl .funfact-block-one .inner-box .icon-box{
+  left: inherit;
+  right: 50px;
+}
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .funfact-section .funfact-block-one{
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .funfact-section .funfact-block-one{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .funfact-block-one .inner-box{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .rtl .funfact-block-one .inner-box{
+    padding-right: 30px;
+  }
+
+  .funfact-block-one .inner-box .icon-box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rtl .funfact-block-one .inner-box .icon-box{
+    right: 0px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

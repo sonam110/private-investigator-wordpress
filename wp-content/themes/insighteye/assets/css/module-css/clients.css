@@ -1,0 +1,129 @@
+
+/** clients-section **/
+
+.clients-section{
+  position: relative;
+  padding: 90px 0px;
+}
+
+.clients-section .owl-carousel .owl-stage{
+  display: flex;
+  align-items: center;
+}
+
+.clients-section .clients-logo{
+  position: relative;
+  display: block;
+}
+
+.clients-section .clients-logo img{
+  position: relative;
+  display: block;
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.clients-section.alternat-2{
+  background: #F7F7F7;
+}
+
+.clients-section.alternat-2 img{
+  opacity: 0.4;
+  transition: all 500ms ease;
+}
+
+.clients-section.alternat-2 img:hover{
+  opacity: 1;
+}
+
+
+
+/** RTL-CSS **/
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .clients-section{
+    padding: 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

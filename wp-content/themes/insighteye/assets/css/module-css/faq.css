@@ -1,0 +1,313 @@
+
+/** faq-section **/
+
+.faq-section{
+  position: relative;
+}
+
+.faq-section:before{
+  position: absolute;
+  content: '';
+  background: #F7F7F7;
+  width: calc(50% + 205px);
+  height: 100%;
+  top: 0px;
+  right: 0px;
+}
+
+.faq-section .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: calc(50% - 75px);
+  height: calc(100% - 150px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.faq-section .bg-layer:before{
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: calc(100% - 150px);
+  bottom: 0px;
+  right: -50px;
+  background: linear-gradient(3.04deg, #FD225C -74.02%, #FE7A40 81.69%);
+}
+
+.faq-section .content-box{
+  position: relative;
+  display: block;
+}
+
+.accordion{
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.accordion:last-child{
+  margin-bottom: 0px;
+}
+
+.accordion .acc-btn{
+  position: relative;
+  padding: 21px 70px 21px 40px;
+  cursor: pointer;
+}
+
+.accordion .acc-btn h4{
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.accordion .acc-btn .icon-box{
+  position: absolute;
+  top: 22px;
+  right: 28px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--title-color);
+  border-radius: 50%;
+  transition: all 500ms ease;
+}
+
+.accordion .acc-content{
+  position: relative;
+  padding: 1px 50px 49px 40px;
+}
+
+.accordion .acc-content p{
+  color: var(--title-color);
+}
+
+.accordion .acc-btn.active .icon-box{
+  background: linear-gradient(43.26deg, rgba(253, 34, 92, 0.15) 5.59%, rgba(254, 122, 64, 0.15) 90.07%);
+}
+
+.accordion .acc-btn.active .icon-box i{
+  display: none;
+}
+
+.accordion .acc-btn .icon-box:before{
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 2px;
+  border-radius: 5px;
+  left: 8px;
+  top: 14px;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.accordion .acc-btn.active .icon-box:before{
+  opacity: 1;
+}
+
+
+/** faq-style-two **/
+
+.faq-style-two{
+  position: relative;
+}
+
+.faq-style-two:before{
+  position: absolute;
+  content: '';
+  width: 645px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+}
+
+.faq-style-two .image-layer{
+  position: absolute;
+  right: 315px;
+  bottom: 0px;
+}
+
+.faq-style-two .pattern-layer .pattern-1{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 947px;
+  height: 626px;
+  background-repeat: no-repeat;
+}
+
+.faq-style-two .pattern-layer .pattern-2{
+  position: absolute;
+  right: 625px;
+  top: 0px;
+  width: 815px;
+  height: 454px;
+  background-repeat: no-repeat;
+}
+
+
+/** faq-page-section **/
+
+.faq-page-section{
+  position: relative;
+}
+
+.faq-page-section .faq-sidebar{
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 20px 60px rgba(62, 84, 141, 0.1);
+  padding: 35px 40px 40px 40px;
+  margin-top: -11px;
+}
+
+.faq-page-section .faq-sidebar h3{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.faq-page-section .faq-sidebar .message-btn{
+  padding-top: 10px;
+}
+
+
+
+/** RTL-CSS **/
+
+.rtl .faq-style-two{
+  direction: ltr;
+}
+
+.rtl .faq-style-two .content-box{
+  text-align: right;
+}
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+  .faq-section .content-box{
+    margin-left: 0px;
+  }
+
+  .faq-style-two .image-layer{
+    right: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .faq-section .bg-layer{
+    display: none;
+  }
+
+  .faq-section:before{
+    width: 100%;
+  }
+
+  .faq-section{
+    padding-bottom: 70px !important;
+  }
+
+  .faq-style-two .image-layer,
+  .faq-style-two:before{
+    display: none;
+  }
+
+  .faq-page-section .content-box{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .faq-page-section .faq-sidebar{
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .faq-style-two{
+    padding-bottom: 70px !important;
+  }
+
+  .faq-style-two .content-box{
+    margin-right: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

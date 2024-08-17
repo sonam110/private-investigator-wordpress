@@ -1,0 +1,277 @@
+
+/* template-color */
+
+.banner-carousel .owl-nav button:hover{
+  background: var(--secondary-color);
+}
+
+.feature-block-one .inner-box .icon-box .icon{
+	background: var(--theme-color);
+}
+
+.feature-block-one .inner-box .icon-box:before{
+	background: var(--theme-color);
+}
+
+.service-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--secondary-color);
+}
+
+.clients-section{
+	background: var(--theme-color);
+}
+
+.video-section .video-btn a{
+	background: var(--theme-color);
+}
+
+.funfact-block-one .inner-box .icon-box .icon{
+	background: var(--theme-color);
+}
+
+.nav-style-one .owl-nav button:before{
+	background: var(--theme-color);
+}
+
+.team-block-one .inner-box .lower-content .share-box .share-icon{
+	background: var(--theme-color);
+}
+
+.team-block-one .inner-box .lower-content .share-box .social-links li a:before{
+	background: var(--theme-color);
+}
+
+.team-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--secondary-color);
+}
+
+.team-block-one .inner-box .lower-content .designation{
+	color: var(--secondary-color);
+}
+
+.accordion .acc-btn.active .icon-box{
+	color: var(--secondary-color);
+}
+
+.accordion .acc-btn .icon-box:before{
+	background: var(--secondary-color);
+}
+
+.news-block-one .inner-box .date{
+	background: var(--theme-color);
+}
+
+.news-block-one .inner-box .lower-content .post-info li a:hover{
+	color: var(--secondary-color);
+}
+
+.news-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--secondary-color);
+}
+
+.news-block-one .inner-box .lower-content .link a:hover{
+	color: var(--secondary-color);
+}
+
+.news-block-one .inner-box .lower-content .link a span:before{
+	color: var(--secondary-color);
+}
+
+.cta-section{
+	background: var(--theme-color);
+}
+
+.feature-style-two{
+	background: var(--theme-color);
+}
+
+.content_block_three .content-box .inner-box .single-item .icon-box{
+	background: var(--theme-color);
+}
+
+.funfact-block-two .inner-box .icon-box .icon{
+  background: var(--theme-color);
+}
+
+.case-block-one .inner-box .content-box h3 a:hover{
+  color: var(--secondary-color);
+}
+
+.case-block-one .inner-box .view-btn a:hover{
+  color: var(--secondary-color);
+}
+
+.team-block-two .inner-box .share-box .share-icon{
+	background: var(--theme-color);
+}
+
+.team-block-two .inner-box .share-box .social-links li a:before{
+	background: var(--theme-color);
+}
+
+.team-block-two .inner-box .content-box h3 a:hover{
+  color: var(--secondary-color);
+}
+
+.team-block-two .inner-box .content-box .designation{
+	color: var(--secondary-color);
+}
+
+.faq-style-two:before{
+	background: var(--theme-color);
+}
+
+.contact-section:before{
+	background: var(--theme-color);
+}
+
+.contact-section .form-inner .form-group input:focus,
+.contact-section .form-inner .form-group textarea:focus{
+  border-color: var(--secondary-color) !important;
+}
+
+.image_block_two .image-box .experience-box{
+	background: var(--theme-color);
+}
+
+.content_block_six .content-box .inner-box .single-item .icon-box .icon{
+	background: var(--theme-color);
+}
+
+.service-style-three .tab-btns .tab-btn:after{
+	background: var(--theme-color);
+}
+
+.team-block-three .inner-box .content-box h3 a:hover{
+  color: var(--secondary-color);
+}
+
+.team-block-three .inner-box .content-box .social-links li a:before{
+	background: var(--theme-color);
+}
+
+.testimonial-style-two .bx-controls a:before{
+	background: var(--theme-color);
+}
+
+.page-title .bread-crumb li a:hover{
+  color: var(--secondary-color);
+}
+
+.service-sidebar .category-widget .category-list li a:before{
+	background: var(--theme-color);
+}
+
+.service-sidebar .support-widget{
+	background: var(--theme-color);
+}
+
+.service-sidebar .support-widget .phone-box .icon-box .icon{
+	background: var(--theme-color);
+}
+
+.team-details .content-box .designation{
+	color: var(--secondary-color);
+}
+
+.team-details .content-box .inner-box .experience-box{
+	background: var(--theme-color);
+}
+
+.team-details .content-box .inner-box .info-list li a:hover{
+  color: var(--secondary-color);
+}
+
+.team-details .content-box .inner-box .social-links li a:hover{
+  background: var(--secondary-color);
+}
+
+.team-info-section:before{
+	background: var(--theme-color);
+}
+
+.progress-box .bar-inner:before{
+	border-color: var(--secondary-color) !important;
+}
+
+.case-details .lower-box .content-two .single-item .icon-box .icon{
+	background: var(--theme-color);
+}
+
+.default-form .form-group input:focus,
+.default-form .form-group textarea:focus{
+  border-color: var(--secondary-color) !important;
+}
+
+.pagination li a:before{
+	background: var(--theme-color);
+}
+
+.blog-sidebar .search-widget .search-form .form-group input:focus{
+  border-color: var(--secondary-color) !important;
+}
+
+.blog-sidebar .search-widget .search-form .form-group input:focus + button[type='submit'],
+.blog-sidebar .search-widget .search-form .form-group button[type='submit']:hover{
+	color: var(--secondary-color);
+}
+
+.blog-sidebar .category-widget .category-list li a:hover{
+  color: var(--secondary-color);
+}
+
+.blog-sidebar .category-widget .category-list li a:before{
+	color: var(--secondary-color);
+}
+
+.blog-sidebar .post-widget .post h6 a:hover{
+  color: var(--secondary-color);
+}
+
+.blog-sidebar .tags-widget .tags-list li a:before{
+	background: var(--theme-color);
+}
+
+.blog-details-content .list-item li:before{
+	background: var(--theme-color);
+}
+
+.blog-details-content blockquote .icon-box{
+	background: var(--theme-color);
+}
+
+.blog-details-content .post-tags .tags-list li a:before{
+	background: var(--theme-color);
+}
+
+.content_block_seven .content-box .inner-box .single-item p a:hover{
+  color: var(--secondary-color);
+}
+
+.contact-style-two .form-inner .form-group input:focus,
+.contact-style-two .form-inner .form-group textarea:focus{
+  border-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

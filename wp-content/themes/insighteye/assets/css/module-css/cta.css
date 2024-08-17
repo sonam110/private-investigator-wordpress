@@ -1,0 +1,140 @@
+
+/** cta-section **/
+
+.cta-section{
+  position: relative;
+}
+
+.cta-section .content-box{
+  position: relative;
+  display: block;
+}
+
+.cta-section .content-box h2{
+  position: relative;
+  display: block;
+  font-size: 60px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.cta-section .content-box .theme-btn{
+  background: #101A30;
+}
+
+.cta-section .content-box .theme-btn:hover{
+  color: #101A30 !important;
+}
+
+.cta-section .content-box .theme-btn:before{
+  background: #fff;
+}
+
+.cta-section .image-layer{
+  position: absolute;
+  left: 315px;
+  bottom: 0px;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+
+	.cta-section .image-layer{
+		left:100px;	
+	}
+}
+
+@media only screen and (max-width: 1200px){
+
+  .cta-section .image-layer{
+    display: none;
+  }
+  
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .cta-section .content-box h2{
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .cta-section{
+    padding: 60px 0px 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
